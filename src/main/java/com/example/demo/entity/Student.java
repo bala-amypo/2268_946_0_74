@@ -31,6 +31,10 @@ public long getID(){
     this.email=email;
  }
 
-public float setCgpa(){
+public float getCgpa(){
     return cgpa;
+}
+
+public void setCgpa(){
+    this.cgpa=cgpa;
 }
