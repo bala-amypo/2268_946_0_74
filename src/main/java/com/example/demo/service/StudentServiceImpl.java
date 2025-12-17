@@ -4,7 +4,9 @@ import java.util.List;
 import org.springFramework.beans.factory.annotation.Autowired;
 import com.example.demo.entity.Student;
 import com.example.demo.repository.Studentrepository;
-import 
+import com.example.demo.service.Studentservice;
+import org.springframework.stereotype.repository;
+
 
 @service
 public class StudentServiceImpl implements StudentService{
